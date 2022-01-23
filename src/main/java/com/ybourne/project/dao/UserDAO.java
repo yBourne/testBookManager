@@ -3,7 +3,9 @@ package com.ybourne.project.dao;
 import com.ybourne.project.model.Ticket;
 import com.ybourne.project.model.User;
 import org.apache.ibatis.annotations.*;
+import org.springframework.stereotype.Repository;
 
+@Repository
 @Mapper
 public interface UserDAO {
     String table_name = " ticket ";

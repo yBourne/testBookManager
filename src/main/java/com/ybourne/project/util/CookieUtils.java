@@ -1,8 +1,5 @@
 package com.ybourne.project.util;
 
-import com.sun.deploy.net.HttpRequest;
-import com.sun.deploy.net.HttpResponse;
-
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;

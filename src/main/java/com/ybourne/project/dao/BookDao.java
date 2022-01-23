@@ -2,9 +2,11 @@ package com.ybourne.project.dao;
 
 import com.ybourne.project.model.Book;
 import org.apache.ibatis.annotations.*;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
+@Repository
 @Mapper
 public interface BookDao {
     String table_name = " book ";
